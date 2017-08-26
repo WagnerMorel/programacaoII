@@ -40,15 +40,13 @@ public class Peso {
     public int getResultadoPeso(){ 
         if(jrMercurio.isSelected()){
        return (int) (0.37 * pesoTerra);
-}else if (jrVenus.isSelected());{
-<<<<<<< HEAD
-        return (int) (0.88 * pesoTerra);
+}
+        else if (jrVenus.isSelected());{
+         return (int) (0.88 * pesoTerra);
    
     }else if (jrMarte.isSelected();{
         return (int) (0.38 * pesoTerra);
-=======
-        return (int) (0.37 * pesoTerra);
-   
+        
     }else if (jrMarte.isSelected();{
         return (int) (0.37 * pesoTerra);
 
