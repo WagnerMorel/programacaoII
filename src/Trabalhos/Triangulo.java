@@ -61,6 +61,11 @@ public class Triangulo {
         else if (ladoA == ladoB && ladoC != ladoA){
           return"Isoceles";
     }
+        else if (ladoA == ladoC && ladoB != ladoA){
+          return"Isoceles";
+        }
+        else if (ladoC == ladoB && ladoB != ladoA){
+          return"Isoceles";}
 
    else {
 return "Os três lados são diferentes";
